@@ -1,0 +1,36 @@
+.chat {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 500px;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+.chat-form {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid #000000;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.chat-form__input {
+  flex: 1 1 auto;
+  border: 0 none;
+  padding: 0;
+}
+
+.chat-form__input:focus {
+  outline: none;
+}
+
+.chat-form__submit {
+  width: 1.5rem;
+  height: 1.25rem;
+  border: 0 none;
+  background: none;
+  background-image: url(../../assets/submit-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
