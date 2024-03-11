@@ -4,6 +4,7 @@
   max-width: 500px;
   max-height: 100vh;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .chat-form {
